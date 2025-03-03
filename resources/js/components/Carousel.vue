@@ -1,15 +1,11 @@
 <template>
-    <div class="relative w-full h-64 overflow-hidden rounded-lg shadow-md">
-        <div class="flex transition-transform duration-500"
-            :style="{ transform: `translateX(-${currentIndex * 100}%)` }">
-            <img v-for="(image, index) in images" :key="index" :src="image" class="w-full h-64 object-cover">
-        </div>
+    <div class="relative w-full overflow-hidden">
+        <img :src="images[currentIndex]" class="w-full  object-cover transition-opacity duration-500" />
 
-        <!-- Controles -->
-        <button @click="prev"
-            class="absolute left-2 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white px-3 py-1 rounded-full">‹</button>
-        <button @click="next"
-            class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white px-3 py-1 rounded-full">›</button>
+        <button @click="prevSlide"
+            class="absolute left-4 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2">◀</button>
+        <button @click="nextSlide"
+            class="absolute right-4 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2">▶</button>
     </div>
 </template>
 
@@ -17,18 +13,20 @@
 import { ref } from 'vue';
 
 const images = ref([
-    '/banner1.jpg',
-    '/banner2.jpg',
-    '/banner3.jpg'
+    '../../images/banners/banner1.png',
+    '../../images/banners/banner3.png',
+    '../../images/banners/banner4.png',
+    '../../images/banners/banner42.png',
+
 ]);
 
 const currentIndex = ref(0);
 
-const prev = () => {
-    currentIndex.value = (currentIndex.value === 0) ? images.value.length - 1 : currentIndex.value - 1;
+const nextSlide = () => {
+    currentIndex.value = (currentIndex.value + 1) % images.value.length;
 };
 
-const next = () => {
-    currentIndex.value = (currentIndex.value + 1) % images.value.length;
+const prevSlide = () => {
+    currentIndex.value = (currentIndex.value - 1 + images.value.length) % images.value.length;
 };
 </script>
