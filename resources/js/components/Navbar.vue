@@ -20,7 +20,7 @@
 
                 <ul class="space-y-4 lg:space-y-0 lg:flex lg:space-x-6 text-lg p-4 lg:p-0">
                     <li><a href="#" class="hover:text-gray-300">Quiénes somos</a></li>
-                    <li><a href="#" class="hover:text-gray-300">Estudios +</a></li>
+                    <li><a :href="`/tu-ruta/${title}`" class="hover:text-gray-300">{{ title }}Estudios +</a></li>
                     <li><a href="#" class="hover:text-gray-300">Servicio a empresas</a></li>
                     <li><a href="#" class="hover:text-gray-300">Tomas a Domicilio</a></li>
                     <li><a href="#" class="hover:text-gray-300">Sucursales</a></li>
@@ -29,7 +29,8 @@
 
                 <!-- Botones -->
                 <div class="p-4 lg:p-0 flex flex-col lg:flex-row lg:space-x-4">
-                    <a href="#" class="bg-blue-500 text-white px-4 py-2 rounded-lg text-center">AGENDA TU CITA</a>
+                    <a href="https://calendar.app.google/439fBKvMzuVJrBuE8"
+                        class="bg-blue-500 text-white px-4 py-2 rounded-lg text-center">AGENDA TU CITA</a>
                     <a href="#" class="bg-teal-500 text-white px-4 py-2 rounded-lg text-center mt-2 lg:mt-0">CONSULTA
                         RESULTADOS</a>
                 </div>
@@ -47,6 +48,16 @@
 
 <script setup>
 import { ref } from 'vue';
+// import { Head, Link, useForm, usePage } from "@inertiajs/vue3";
 
+import { usePage } from '@inertiajs/vue3';
+// import route from 'ziggy-js'; // Asegura que importas 'route'
+
+
+console.log('console prueba' + usePage().props);
 const menuOpen = ref(false);
+const title = "minutero";
+
+
+
 </script>
