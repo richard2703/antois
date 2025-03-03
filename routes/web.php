@@ -5,5 +5,5 @@ use Inertia\Inertia;
 
 
 Route::get('/', function () {
-    return Inertia::render('App'); // Carga la vista Vue 'Home.vue'
+    return Inertia::render('home'); // Carga la vista Vue 'Home.vue'
 });
