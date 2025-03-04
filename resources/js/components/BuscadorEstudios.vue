@@ -36,8 +36,7 @@
 <script setup>
 import { ref, computed, defineProps, defineEmits } from 'vue';
 import { router } from '@inertiajs/vue3';
-import Navbar from '@/components/Navbar.vue';
-import Footer from '@/components/Footer.vue';
+
 
 // Recibir lista de estudios como prop
 const props = defineProps({
