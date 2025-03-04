@@ -20,7 +20,7 @@
 
                 <ul class="space-y-4 lg:space-y-0 lg:flex lg:space-x-6 text-lg p-4 lg:p-0">
                     <li><a href="#" class="hover:text-gray-300">Quiénes somos</a></li>
-                    <li><a :href="`/tu-ruta/${title}`" class="hover:text-gray-300">{{ title }}Estudios +</a></li>
+                    <li><a :href="`/estudios-disponibles`" class="hover:text-gray-300">Estudios +</a></li>
                     <li><a href="#" class="hover:text-gray-300">Servicio a empresas</a></li>
                     <li><a href="#" class="hover:text-gray-300">Tomas a Domicilio</a></li>
                     <li><a href="#" class="hover:text-gray-300">Sucursales</a></li>
