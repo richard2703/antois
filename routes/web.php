@@ -8,9 +8,9 @@ Route::get('/', function () {
     return Inertia::render('home'); // Carga la vista Vue 'Home.vue'
 });
 
-Route::get('/estudios-disponibles', function () {
-    return Inertia::render('estudios-disponibles');
-})->name('estudios-disponibles');
+Route::get('/tipo-estudios/{nombre}', function ($nombre) {
+    return Inertia::render('estudios-disponibles', ['nombre' => $nombre]);
+})->name('tipo-estudios');
 
 Route::get('/estudio/{nombre}', function ($nombre) {
     return Inertia::render('EstudioDetalle', ['nombre' => $nombre]);
