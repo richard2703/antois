@@ -33,9 +33,16 @@
         <div class="container mx-auto text-center">
             <h2 class="text-3xl font-bold text-gray-900 mb-8">Ubicaciones</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <LocationCard city="Guadalajara" address="Av. Chapultepec #123" phone="(33) 1234-5678" />
-                <LocationCard city="Zapopan" address="Plaza Andares #456" phone="(33) 8765-4321" />
-                <LocationCard city="Tlaquepaque" address="Calle Juárez #789" phone="(33) 5678-1234" />
+                <LocationCard city="Matriz" address="Bahia de todos los santos #2759 Col. Parques de santa maria
+Tlaquepaque, Jal." phone="33 3693 5986" lugar="https://maps.app.goo.gl/hgFNonPJwv1Q5WYJ7" />
+                <LocationCard city="San Agustin" address="Nicolas R. Casillas #4-a Tlajomulco, Jal."
+                    phone="33 3693 5986" lugar="https://maps.app.goo.gl/Gka4gYbrYkT8CU6GA" />
+                <LocationCard city="Santa Anita"
+                    address="Blvd. Bosques de Santa Anita #255 (Dentro de Núcleo Médico Bosques) Tlajomulco, Jal."
+                    phone="331655 0591" lugar="https://maps.app.goo.gl/x5KiyYL6EKHep6xD8" />
+                <LocationCard city="San Miguel Cuyutlán"
+                    address="Calle Madero #12 (Frente al Centro de Salud) San Miguel Cuyutlán, Jal."
+                    phone="33 3401 8555" lugar="https://maps.app.goo.gl/kDrUuPTQ93g6wssp9" />
             </div>
         </div>
     </section>
