@@ -3,9 +3,19 @@
         <!-- Contenedor de las imágenes con animación -->
         <div class="flex transition-transform duration-700 ease-in-out"
             :style="{ transform: `translateX(-${currentIndex * 100}%)` }">
-            <img src="../../images/banners/banner1.png" class="w-full object-cover flex-shrink-0" />
-            <img src="../../images/banners/banner3.png" class="w-full object-cover flex-shrink-0" />
-            <img src="../../images/banners/banner42.png" class="w-full object-cover flex-shrink-0" />
+
+            <a href="https://wa.me/5213334018555" target="_blank" class="w-full flex-shrink-0 block">
+                <img src="../../images/banners/1.png" class="w-full object-cover" />
+            </a>
+
+            <a href="https://wa.me/5213334018555" target="_blank" class="w-full flex-shrink-0 block">
+                <img src="../../images/banners/2.png" class="w-full object-cover" />
+            </a>
+
+            <a href="https://wa.me/5213334018555" target="_blank" class="w-full flex-shrink-0 block">
+                <img src="../../images/banners/3.png" class="w-full object-cover" />
+            </a>
+
         </div>
 
         <!-- Botón Anterior -->
@@ -25,39 +35,32 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue';
 
-// Índice del slide actual
 const currentIndex = ref(0);
-const totalSlides = 3; // Ajusta según el número de imágenes
+const totalSlides = 3;
 let interval = null;
 
-// Función para avanzar al siguiente slide
 const nextSlide = () => {
     currentIndex.value = (currentIndex.value + 1) % totalSlides;
 };
 
-// Función para regresar al slide anterior
 const prevSlide = () => {
     currentIndex.value = (currentIndex.value - 1 + totalSlides) % totalSlides;
 };
 
-// Función para iniciar el carrusel automático
 const startAutoSlide = () => {
     interval = setInterval(() => {
         nextSlide();
-    }, 3000); // Cambia de imagen cada 3 segundos
+    }, 5000);
 };
 
-// Función para detener el carrusel cuando se desmonta
 const stopAutoSlide = () => {
     if (interval) clearInterval(interval);
 };
 
-// Iniciar el carrusel cuando el componente se monta
 onMounted(() => {
     startAutoSlide();
 });
 
-// Detener el carrusel cuando el componente se desmonta
 onUnmounted(() => {
     stopAutoSlide();
 });

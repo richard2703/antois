@@ -6,12 +6,8 @@
                 <!-- Logo - Reducido de tamaño para dar más espacio -->
                 <div class="flex-shrink-0">
                     <div class="text-xl font-bold tracking-wider flex items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-1 text-blue-400" fill="none"
-                            viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
-                        </svg>
-                        LABORATORIO
+                        <img src="../../images/logos/logoN.svg" alt="Logo"
+                            class="h-32 object-contain mr-1 text-blue-400" />
                     </div>
                 </div>
 
@@ -25,7 +21,7 @@
 
                         <!-- Dropdown para "Estudios +" -->
                         <li class="relative group">
-                            <button @click="estudiosOpen = !estudiosOpen"
+                            <!-- <button @click="estudiosOpen = !estudiosOpen"
                                 class="flex items-center hover:text-blue-300 transition-colors duration-200 font-medium focus:outline-none">
                                 Estudios +
                                 <svg class="ml-1 w-4 h-4 transition-transform duration-200"
@@ -34,7 +30,7 @@
                                         d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 011.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
                                         clip-rule="evenodd" />
                                 </svg>
-                            </button>
+                            </button> -->
 
                             <!-- Contenido del dropdown -->
                             <ul v-if="estudiosOpen"
@@ -79,7 +75,7 @@
                         </svg>
                         AGENDA TU CITA
                     </a>
-                    <a href="#"
+                    <!-- <a href="#"
                         class="bg-teal-600 hover:bg-teal-700 text-white px-3 py-2 rounded-lg font-medium text-sm transition-colors duration-200 flex items-center whitespace-nowrap">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
@@ -87,7 +83,7 @@
                                 d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                         </svg>
                         CONSULTA<span class="hidden xl:inline ml-1">RESULTADOS</span>
-                    </a>
+                    </a> -->
                 </div>
             </div>
 
@@ -185,7 +181,7 @@
                             </svg>
                             AGENDA TU CITA
                         </a>
-                        <a href="#"
+                        <!-- <a href="#"
                             class="bg-teal-600 hover:bg-teal-700 text-white w-full py-3 rounded-lg font-medium text-lg flex justify-center items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
@@ -193,7 +189,7 @@
                                     d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                             </svg>
                             CONSULTA RESULTADOS
-                        </a>
+                        </a> -->
                     </div>
                 </nav>
             </div>

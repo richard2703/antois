@@ -17,7 +17,7 @@
 
             <!-- Sección Servicios -->
             <div>
-                <h3 class="text-lg font-bold mb-4">Servicios</h3>
+                <!-- <h3 class="text-lg font-bold mb-4">Servicios</h3>
                 <ul class="space-y-2">
                     <li><a href="#" class="hover:text-gray-300">Análisis Clínicos</a></li>
                     <li><a href="#" class="hover:text-gray-300">Biología Molecular</a></li>
@@ -32,7 +32,7 @@
                     <li><a href="#" class="hover:text-gray-300">Resonancia Magnética</a></li>
                     <li><a href="#" class="hover:text-gray-300">Tomografía</a></li>
                     <li><a href="#" class="hover:text-gray-300">Ultrasonido</a></li>
-                </ul>
+                </ul> -->
             </div>
 
             <!-- Sección Pacientes y Horarios -->
@@ -61,7 +61,7 @@
 
         <!-- Redes Sociales -->
         <div class="mt-8 text-center">
-            <h3 class="text-lg font-bold mb-4">Redes sociales</h3>
+            <!-- <h3 class="text-lg font-bold mb-4">Redes sociales</h3> -->
             <div class="flex justify-center space-x-4">
                 <!-- <a href="#"><img src="/facebook.svg" alt="Facebook" class="w-8"></a>
                 <a href="#"><img src="/twitter.svg" alt="Twitter" class="w-8"></a>
