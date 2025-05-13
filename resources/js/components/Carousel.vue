@@ -12,7 +12,7 @@
                 <img src="../../images/banners/2.png" class="w-full object-cover" />
             </a>
 
-            <a href="https://wa.me/5213334018555" target="_blank" class="w-full flex-shrink-0 block">
+            <a href="#promociones" class="w-full flex-shrink-0 block">
                 <img src="../../images/banners/3.png" class="w-full object-cover" />
             </a>
 

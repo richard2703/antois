@@ -9,6 +9,45 @@
         </div>
     </section>
 
+    <!-- 🔹 Sección de Promociones -->
+    <section class="bg-gray-100 py-16" id="promociones">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold text-gray-900 mb-8">Promociones</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4">
+                <a href="https://wa.me/5213334018555?text=Hola,%20estoy%20interesado%20en%20la%20promoción%20del%20paquete%20Completo"
+                    target="_blank">
+                    <img src="../../images/paquetes/1.png" alt="Promoción 1"
+                        class="rounded shadow-md object-cover h-full" />
+                </a>
+                <a href="https://wa.me/5213334018555?text=Hola,%20estoy%20interesado%20en%20la%20promoción%20del%20paquete%20Diabetico"
+                    target="_blank">
+                    <img src="../../images/paquetes/2.png" alt="Promoción 2"
+                        class="rounded shadow-md object-cover h-full" />
+                </a>
+                <a href="https://wa.me/5213334018555?text=Hola,%20estoy%20interesado%20en%20la%20promoción%20del%20paquete%20Integral"
+                    target="_blank">
+                    <img src="../../images/paquetes/3.png" alt="Promoción 3"
+                        class="rounded shadow-md object-cover h-full" />
+                </a>
+                <a href="https://wa.me/5213334018555?text=Hola,%20estoy%20interesado%20en%20la%20promoción%20del%20paquete%20femenino"
+                    target="_blank">
+                    <img src="../../images/paquetes/4.png" alt="Promoción 4"
+                        class="rounded shadow-md object-cover h-full" />
+                </a>
+                <a href="https://wa.me/5213334018555?text=Hola,%20estoy%20interesado%20en%20la%20promoción%20del%20paquete%20Masculino"
+                    target="_blank">
+                    <img src="../../images/paquetes/5.png" alt="Promoción 5"
+                        class="rounded shadow-md object-cover h-full" />
+                </a>
+                <a href="https://wa.me/5213334018555?text=Hola,%20estoy%20interesado%20en%20la%20promoción%20del%20paquete%20Basico"
+                    target="_blank">
+                    <img src="../../images/paquetes/6.png" alt="Promoción 6"
+                        class="rounded shadow-md object-cover h-full" />
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- 🔹 Sección de Servicios -->
     <!-- <section class="bg-[#f0fdfa] py-16">
         <div class="container mx-auto text-center">
@@ -40,6 +79,9 @@ Tlaquepaque, Jal." phone="33 3693 5986" lugar="https://maps.app.goo.gl/hgFNonPJw
                 <LocationCard city="Santa Anita"
                     address="Blvd. Bosques de Santa Anita #255 (Dentro de Núcleo Médico Bosques) Tlajomulco, Jal."
                     phone="331655 0591" lugar="https://maps.app.goo.gl/x5KiyYL6EKHep6xD8" />
+                <LocationCard city="San Miguel Cuyutlán"
+                    address="Calle Madero #12 (Frente al Centro de Salud) San Miguel Cuyutlán, Jal."
+                    phone="33 3401 8555" lugar="https://maps.app.goo.gl/kDrUuPTQ93g6wssp9" />
                 <LocationCard city="San Miguel Cuyutlán"
                     address="Calle Madero #12 (Frente al Centro de Salud) San Miguel Cuyutlán, Jal."
                     phone="33 3401 8555" lugar="https://maps.app.goo.gl/kDrUuPTQ93g6wssp9" />

@@ -66,7 +66,8 @@
 
                 <!-- Botones de acción - Más compactos -->
                 <div class="flex items-center space-x-2 flex-shrink-0 ">
-                    <a href="https://calendar.app.google/439fBKvMzuVJrBuE8"
+                    <a href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ2BH4_jcQyujIaN5JrPuUhCFkaPdOD8dCfmDgOVuqg0apH4pLIFnsENYdkLU2GeFbiFJitxxL6h?gv=true"
+                        target="_blank"
                         class="bg-blue-600 hover:bg-blue-700 text-white px-3 py-2 rounded-lg font-medium text-sm transition-colors duration-200 flex items-center whitespace-nowrap ">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
