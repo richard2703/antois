@@ -15,3 +15,7 @@ Route::get('/tipo-estudios/{nombre}', function ($nombre) {
 Route::get('/estudio/{nombre}', function ($nombre) {
     return Inertia::render('EstudioDetalle', ['nombre' => $nombre]);
 })->name('estudio.detalle');
+
+Route::get('/QuienesSomos', function () {
+    return Inertia::render('quienesSomos');
+})->name('quienes-somos');

@@ -9,6 +9,29 @@
         </div>
     </section>
 
+    <section id="antois" class="bg-gray-100 py-16">
+        <div class="container mx-auto px-4 text-center max-w-3xl">
+            <h2 class="text-4xl font-extrabold text-blue-900 mb-6">Tu salud, nuestra prioridad</h2>
+            <div class="mb-6">
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    En nuestro laboratorio clínico, entendemos que cada análisis es una oportunidad para cuidar de ti y
+                    de los tuyos.
+                    Ofrecemos una amplia gama de estudios de laboratorio, realizados con equipos de última generación y
+                    por
+                    profesionales altamente capacitados.
+                </p>
+            </div>
+            <div>
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    Con sucursales estratégicamente ubicadas y opciones de servicio a domicilio, facilitamos el acceso a
+                    diagnósticos
+                    precisos y oportunos. Agenda tu cita en línea y descubre cómo podemos ayudarte a mantener tu
+                    bienestar.
+                </p>
+            </div>
+        </div>
+    </section>
+
     <!-- 🔹 Sección de Promociones -->
     <section class="bg-gray-100 py-16" id="promociones">
         <div class="container mx-auto text-center">
